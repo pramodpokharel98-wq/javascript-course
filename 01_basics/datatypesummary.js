@@ -36,3 +36,25 @@ console.log(typeof anotherid);//symmbol=>symbol
 console.log(typeof score);  // number=>number
 console.log(typeof scorevalue);//number=>number
 console.log(typeof isLoggenIn); //boolean=>boolean
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++
+// MEMORY RELSTED
+// STACK(for primtive type) ,HEAP(for non primitive type)
+
+ let mySisterName="prisma pokharel"
+ let anothername= mySisterName
+ anothername = "mussa"
+ console.log(anothername);
+ console.log(mySisterName);
+
+ let userone={
+    email:"usergoogle.com",
+    password :" user243"
+ }
+ let usertwo=userone
+ usertwo.email ="pramod@google.com"
+ console.log(userone.email);
+ console.log(usertwo.email);
+ 
